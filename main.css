@@ -152,7 +152,7 @@
     appearance: none;
     width: 30px; /* Set a specific slider handle width */
     height: 30px; /* Slider handle height */
-    background: url("../fingerprint.svg"); /* Green background */
+    background: url("./fingerprint.svg"); /* Green background */
     cursor: pointer; /* Cursor on hover */
     border: 0;
   }
@@ -160,7 +160,7 @@
   #overlay::-moz-range-thumb {
     width: 30px; /* Set a specific slider handle width */
     height: 30px; /* Slider handle height */
-    background: url("../fingerprint.svg"); /* Green background */
+    background: url("./fingerprint.svg"); /* Green background */
     cursor: pointer; /* Cursor on hover */
     border: 0;
   }
