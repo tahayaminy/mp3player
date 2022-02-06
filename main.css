@@ -10,8 +10,6 @@
     height: 100%;
     position: relative;
     background-color: #1d3557;
-    /* background-image: url('../mo.png');
-        background-size: cover; */
   }
   p {
     border-bottom: 3px solid #e63946;
@@ -20,6 +18,7 @@
     display: inline-block;
     border-radius: 5px;
     margin: 5px;
+    color:#f1faee;
   }
   p > i {
     margin-left: 10px;
@@ -152,7 +151,7 @@
     appearance: none;
     width: 30px; /* Set a specific slider handle width */
     height: 30px; /* Slider handle height */
-    background: url("./fingerprint.svg"); /* Green background */
+    background: url("./cursor.svg"); /* Green background */
     cursor: pointer; /* Cursor on hover */
     border: 0;
   }
@@ -160,7 +159,7 @@
   #overlay::-moz-range-thumb {
     width: 30px; /* Set a specific slider handle width */
     height: 30px; /* Slider handle height */
-    background: url("./fingerprint.svg"); /* Green background */
+    background: url("./cursor.svg"); /* Green background */
     cursor: pointer; /* Cursor on hover */
     border: 0;
   }
